@@ -47,4 +47,5 @@ mspcvsp
   
 <small style="font-size:.5em">Bache, K. & Lichman, M. (2013).
 <a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
+</br>Irvine, CA: University of California, School of Information and Computer Science.
 </small>
