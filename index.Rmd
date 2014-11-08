@@ -1,7 +1,7 @@
 ---
 title       : R Data Visualization & Data Products
 subtitle    : 
-author      : mspcvsp
+author      : datasciencespm
 job         : 
 framework   : revealjs
 highlighter : highlight.js
@@ -83,3 +83,12 @@ splom(airquality[,seq(1:4)],
 <a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
 </br>Irvine, CA: University of California, School of Information and Computer Science.
 </small>
+
+
+---
+## ggplot2 
+- [R Graphics Cookbook](http://www.cookbook-r.com/Graphs)
+- [Plot Generation Code](http://rpubs.com/mspcvsp/noaaStormDatabase)
+    - [NOAA Storm Events Database](http://www.ncdc.noaa.gov/stormevents/)  
+  
+<img src="./assets/img/maxHealthImpact.png">  
