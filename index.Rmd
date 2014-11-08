@@ -23,7 +23,11 @@ datasciencespm
     - [Base](http://rpubs.com/SusanEJohnston/7953) 
     - [Lattice](http://www.statmethods.net/advgraphs/trellis.html)
     - [ggplot2](http://docs.ggplot2.org/current/)
-    - [GGally](http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/)
+    - [GGally](http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/)  
+- R Data Products
+    - [R Markdown Language](http://rmarkdown.rstudio.com/)
+    - [Slidify](http://slidify.github.io/interactive/)
+    - [Shiny "Web Application Framework for R"](http://shiny.rstudio.com/)
 
 --- .class #id 
 ## Johns Hopkins University Data Science Cousera Specialization
