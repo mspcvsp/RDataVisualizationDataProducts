@@ -25,7 +25,6 @@ mspcvsp
     - [ggplot2](http://docs.ggplot2.org/current/)
 
 --- .class #id 
-
 ## Johns Hopkins University Data Science Cousera Specialization
 - [The Data Scientist's Toolbox](https://www.coursera.org/course/datascitoolbox)
 - [R Programming](https://www.coursera.org/course/rprog)
@@ -38,8 +37,10 @@ mspcvsp
 - [Practical Machine Learning](https://www.coursera.org/course/predmachlearn)
 - [Developing Data Products](https://www.coursera.org/course/devdataprod)
 
-----
+---
+## R Language Base Graphics Library  
+  
+- [Plot Generation Code](https://github.com/datasciencespm/ExData_Plotting1/blob/master/plot4.R)
+    - [Individual Household Electric Power Consumption Data Set](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)  
 
-
-
-
+<img src="./assets/img/rBaseGraphicsEx.png" width=380>  
