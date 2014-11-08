@@ -1,0 +1,33 @@
+---
+title       : R Data Visualization & Data Products
+subtitle    : 
+author      : mspcvsp
+job         : 
+framework   : revealjs
+highlighter : highlight.js
+hitheme     : zenburn
+widgets     : [mathjax, bootstrap]
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+# R Data Visualization & Data Products
+datasciencespm  
+11/13/2014  
+
+---
+## Introduction
+
+- [Johns Hopkins University Data Science Cousera Specialization](https://www.coursera.org/specialization/jhudatascience/1)  
+- R Language Graphics Libraries  
+    - [Base](http://rpubs.com/SusanEJohnston/7953) 
+    - Lattice  
+    - ggplot2  
+
+--- .class #id 
+
+## Slide 2
+
+
+
+
