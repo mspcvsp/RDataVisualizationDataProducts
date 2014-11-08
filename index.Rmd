@@ -70,3 +70,16 @@ splom(airquality[,seq(1:4)],
           panel.loess(x, y, ..., col = 'red')
       })
 ```
+
+---
+## ggplot2 
+  
+- [R Graphics Cookbook](http://www.cookbook-r.com/Graphs)
+- [Plot Generation Code](https://github.com/datasciencespm/GettingAndCleaningData/blob/master/plotTidyData.R)
+    - [Human Activity Recognition Using Smartphones Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+    
+<img src="./assets/img/tBodyAccMagMean.png">  
+<small style="font-size:.5em">Bache, K. & Lichman, M. (2013).
+<a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
+</br>Irvine, CA: University of California, School of Information and Computer Science.
+</small>
