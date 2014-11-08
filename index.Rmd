@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 ---
 
 # R Data Visualization & Data Products
-mspcvsp  
+datasciencespm    
 11/13/2014  
 
 ---
@@ -23,6 +23,7 @@ mspcvsp
     - [Base](http://rpubs.com/SusanEJohnston/7953) 
     - [Lattice](http://www.statmethods.net/advgraphs/trellis.html)
     - [ggplot2](http://docs.ggplot2.org/current/)
+    - [GGally](http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/)
 
 --- .class #id 
 ## Johns Hopkins University Data Science Cousera Specialization
@@ -84,7 +85,6 @@ splom(airquality[,seq(1:4)],
 </br>Irvine, CA: University of California, School of Information and Computer Science.
 </small>
 
-
 ---
 ## ggplot2 
 - [R Graphics Cookbook](http://www.cookbook-r.com/Graphs)
@@ -92,3 +92,11 @@ splom(airquality[,seq(1:4)],
     - [NOAA Storm Events Database](http://www.ncdc.noaa.gov/stormevents/)  
   
 <img src="./assets/img/maxHealthImpact.png">  
+
+---
+## GGally
+- [GGally R Package Description](http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/)  
+- [Plot Generation Code](https://github.com/datasciencespm/DevelopingDataProducts/blob/master/server.R)  
+    - [Motor Trend Car Road Tests dataset](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html)
+    
+<img src="./assets/img/exploratoryDataAnalysis.png">  
