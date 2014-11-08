@@ -43,7 +43,7 @@ mspcvsp
 - [Plot Generation Code](https://github.com/datasciencespm/ExData_Plotting1/blob/master/plot4.R)
     - [Individual Household Electric Power Consumption Data Set](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)  
 
-<img src="./assets/img/rBaseGraphicsEx.png" width=380>  
+<img src="./assets/img/rBaseGraphicsEx.png" width=480>  
   
 <small style="font-size:.5em">Bache, K. & Lichman, M. (2013).
 <a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
