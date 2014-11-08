@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 ---
 
 # R Data Visualization & Data Products
-datasciencespm  
+mspcvsp  
 11/13/2014  
 
 ---
@@ -21,12 +21,24 @@ datasciencespm
 - [Johns Hopkins University Data Science Cousera Specialization](https://www.coursera.org/specialization/jhudatascience/1)  
 - R Language Graphics Libraries  
     - [Base](http://rpubs.com/SusanEJohnston/7953) 
-    - Lattice  
-    - ggplot2  
+    - [Lattice](http://www.statmethods.net/advgraphs/trellis.html)
+    - [ggplot2](http://docs.ggplot2.org/current/)
 
 --- .class #id 
 
-## Slide 2
+## Johns Hopkins University Data Science Cousera Specialization
+- [The Data Scientist's Toolbox](https://www.coursera.org/course/datascitoolbox)
+- [R Programming](https://www.coursera.org/course/rprog)
+- [Getting & Cleaning Data](https://www.coursera.org/course/getdata)
+  - [Tidy Data](http://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/)
+- [Exploratory Data Analysis](https://www.coursera.org/course/exdata)
+- [Reproducible Research](https://www.coursera.org/course/repdata)
+- [Statistical Inference](https://www.coursera.org/course/statinference)
+- [Regression Models](https://www.coursera.org/course/regmods)
+- [Practical Machine Learning](https://www.coursera.org/course/predmachlearn)
+- [Developing Data Products](https://www.coursera.org/course/devdataprod)
+
+----
 
 
 
