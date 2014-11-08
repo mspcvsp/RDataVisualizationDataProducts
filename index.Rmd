@@ -49,3 +49,24 @@ mspcvsp
 <a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
 </br>Irvine, CA: University of California, School of Information and Computer Science.
 </small>
+
+---
+## R Language Lattice Graphics Library  
+  
+* Scatter plot matrix reference:
+    - <small style="font-size:0.8em">[Lamigueiro, O.P. "How to display scatter plot matrices with R and lattice"](http://procomun.wordpress.com/2011/03/18/splomr/)</small>
+  
+```{r latticeGraphExample,fig.align='center',echo=FALSE,results='hide'}
+library(lattice)
+library(hexbin)
+data(airquality)
+splom(airquality[,seq(1:4)],
+      pch=19,
+      panel=panel.hexbinplot,
+      colramp=BTC,
+      main="Air Quality Dataset",
+      lower.panel = function(x, y, ...){
+          panel.hexbinplot(x, y, ...)
+          panel.loess(x, y, ..., col = 'red')
+      })
+```
