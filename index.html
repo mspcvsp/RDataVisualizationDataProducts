@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>R Data Visualization & Data Products</title>
+  <meta name="description" content="">
+  <meta name="author" content="mspcvsp">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/zenburn.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "libraries/widgets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h1>R Data Visualization &amp; Data Products</h1>
+  <p>mspcvsp<br>
+11/13/2014  </p>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>Introduction</h2>
+  <ul>
+<li><a href="https://www.coursera.org/specialization/jhudatascience/1">Johns Hopkins University Data Science Cousera Specialization</a><br></li>
+<li>R language graphics libraries<br>
+
+<ul>
+<li><a href="http://rpubs.com/SusanEJohnston/7953">base</a> </li>
+<li><a href="http://www.statmethods.net/advgraphs/trellis.html">lattice</a></li>
+<li><a href="http://docs.ggplot2.org/current/">ggplot2</a></li>
+<li><a href="http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/">GGally</a><br></li>
+</ul></li>
+<li>R language data products
+
+<ul>
+<li><a href="http://rmarkdown.rstudio.com/">R Markdown language</a></li>
+<li><a href="http://slidify.github.io/interactive/">Slidify</a></li>
+<li><a href="http://shiny.rstudio.com/">Shiny web application</a></li>
+</ul></li>
+</ul>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>Johns Hopkins University Data Science Cousera Specialization</h2>
+  <ul>
+<li><a href="https://www.coursera.org/course/datascitoolbox">The Data Scientist&#39;s Toolbox</a></li>
+<li><a href="https://www.coursera.org/course/rprog">R Programming</a></li>
+<li><a href="https://www.coursera.org/course/getdata">Getting &amp; Cleaning Data</a>
+
+<ul>
+<li><a href="http://www.prometheusresearch.com/good-data-management-practices-for-data-analysis-tidy-data-part-2/">Tidy data</a></li>
+</ul></li>
+<li><a href="https://www.coursera.org/course/exdata">Exploratory Data Analysis</a></li>
+<li><a href="https://www.coursera.org/course/repdata">Reproducible Research</a></li>
+<li><a href="https://www.coursera.org/course/statinference">Statistical Inference</a></li>
+<li><a href="https://www.coursera.org/course/regmods">Regression Models</a></li>
+<li><a href="https://www.coursera.org/course/predmachlearn">Practical Machine Learning</a></li>
+<li><a href="https://www.coursera.org/course/devdataprod">Developing Data Products</a></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>R Language Base Graphics Library</h2>
+  <ul>
+<li><a href="https://github.com/datasciencespm/ExData_Plotting1/blob/master/plot4.R">Plot generation code</a>
+
+<ul>
+<li><small style="font-size:0.8em"><a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">Individual Household Electric Power Consumption Data Set</a></small><br></li>
+</ul></li>
+</ul>
+
+<p><img src="./assets/img/rBaseGraphicsEx.png" width=480>  </p>
+
+<p><small style="font-size:.5em">Bache, K. &amp; Lichman, M. (2013).
+<a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
+</br>Irvine, CA: University of California, School of Information and Computer Science.
+</small></p>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>R Language Lattice Graphics Library</h2>
+  <ul>
+<li>Scatter plot matrix reference:
+
+<ul>
+<li><small style="font-size:0.8em"><a href="http://procomun.wordpress.com/2011/03/18/splomr/">Lamigueiro, O.P. &quot;How to display scatter plot matrices with R and lattice&quot;</a></small></li>
+</ul></li>
+<li> <small style="font-size:0.8em"><a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/airquality.html">Air quality dataset</a></small><br>
+</br>
+<img src="assets/fig/latticeGraphExample.png" title="plot of chunk latticeGraphExample" alt="plot of chunk latticeGraphExample" style="display: block; margin: auto;" /></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h2>ggplot2</h2>
+  <ul>
+<li><a href="http://www.cookbook-r.com/Graphs">R Graphics Cookbook</a></li>
+<li><a href="http://simplystatistics.org/2011/10/17/colors-in-r/">RColorBrewer R package</a></li>
+<li><a href="https://github.com/datasciencespm/GettingAndCleaningData/blob/master/plotTidyData.R">Plot generation code</a>
+
+<ul>
+<li><small style="font-size:0.8em"><a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">Human Activity Recognition Using Smartphones Dataset</a></small><br></li>
+</ul></li>
+</ul>
+
+<p><img src="./assets/img/tBodyAccMagMean.png"><br>
+<small style="font-size:.5em">Bache, K. &amp; Lichman, M. (2013).
+<a href="http://archive.ics.uci.edu/ml">UCI Machine Learning Repository</a>
+</br>Irvine, CA: University of California, School of Information and Computer Science.
+</small></p>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>ggplot2</h2>
+  <ul>
+<li><a href="http://www.cookbook-r.com/Graphs">R Graphics Cookbook</a></li>
+<li><a href="http://rpubs.com/mspcvsp/noaaStormDatabase">Plot generation code</a>
+
+<ul>
+<li><small style="font-size:0.8em"><a href="http://www.ncdc.noaa.gov/stormevents/">NOAA Storm Events Database</a></small><br></li>
+</ul></li>
+</ul>
+
+<p><img src="./assets/img/maxHealthImpact.png">  </p>
+
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h2>GGally</h2>
+  <ul>
+<li><a href="http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/">GGally R package description</a><br></li>
+<li><a href="https://github.com/datasciencespm/DevelopingDataProducts/blob/master/server.R">Plot generation code</a><br>
+
+<ul>
+<li><small style="font-size:0.8em"><a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html">Motor Trend Car Road Tests dataset</a></small><br></li>
+</ul></li>
+</ul>
+
+<p><img src="./assets/img/exploratoryDataAnalysis.png">  </p>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  <h2>R Markdown Language</h2>
+  <ul>
+<li><a href="http://www.biostat.jhsph.edu/%7Erpeng/research.html">Reproducible Research</a>
+
+<ul>
+<li><a href="http://biostatistics.oxfordjournals.org/content/10/3/405.full">Oxford Journals: Biostatistics </a></li>
+</ul></li>
+<li><a href="http://rmarkdown.rstudio.com/">R Markdown language</a></li>
+<li><a href="http://yihui.name/knitr/">knitr R package</a></li>
+<li><a href="http://rmarkdown.rstudio.com/html_document_format.html">R Markdown HTML document</a></li>
+<li><a href="http://rmarkdown.rstudio.com/ioslides_presentation_format.html">R Markdown ioslides HTML5 presentation</a></li>
+<li><a href="http://rmarkdown.rstudio.com/beamer_presentation_format.html">R Markdown Beamer PDF presentation</a><br></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-10'>
+  <h2>Slidify</h2>
+  <ul>
+<li>This presentation was generated using <a href="http://slidify.github.io/interactive/">Slidify</a></li>
+<li><a href="http://www.r-bloggers.com/slidify-modern-simple-presentations-written-in-r-markdown/">Slidify demo</a></li>
+<li><a href="http://datacommunitydc.org/blog/2013/08/fantastic-presentations-from-r-using-slidify-and-rcharts/">Data Visualization DC / Statistical Programming DC presentation: &quot;Fantastic presentations from R using slidify and rCharts&quot;</a><br>
+
+<ul>
+<li><a href="http://rcharts.io/">rCharts R package</a></li>
+<li><a href="http://datacommunitydc.org/blog/2013/05/data-visualization-rcharts/">Data Community DC blog article: &quot;Data Visualization: rCharts&quot;</a><br></li>
+</ul></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-11'>
+  <h2>Shiny Web Application</h2>
+  <ul>
+<li><a href="http://shiny.rstudio.com/tutorial/">Shiny web application tutorial</a><br></li>
+<li><a href="http://datasciencespm.github.io/DevelopingDataProducts/shinyApplicationPresentation.html#/slide-1">Example application</a>
+
+<ul>
+<li><a href="https://github.com/datasciencespm/DevelopingDataProducts">Source code</a></li>
+</ul></li>
+</ul>
+
+<p><img src="./assets/img/flowDiagram.png">  </p>
+
+</section>
+<section class='' data-state='' id='slide-12'>
+  <h2>Conclusion</h2>
+  <ul>
+<li>R language graphics libraries
+
+<ul>
+<li>Line graphs</li>
+<li>Scatter plot matrix</li>
+<li>Facets</li>
+<li>Geographic data visualization</li>
+</ul></li>
+<li>R language data products
+
+<ul>
+<li>R Markdown language</li>
+<li>R Markdown HTML document</li>
+<li>R Markdown presentations</li>
+<li>Slidify</li>
+<li>Shiny web application</li>
+</ul></li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script>  
+$(function (){ 
+  $("#example").popover(); 
+  $("[rel='tooltip']").tooltip(); 
+});  
+</script>  
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
