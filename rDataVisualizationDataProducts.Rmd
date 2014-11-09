@@ -7,7 +7,7 @@ framework   : revealjs
 highlighter : highlight.js
 hitheme     : zenburn
 widgets     : [mathjax, bootstrap]
-mode        : selfcontained
+mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
