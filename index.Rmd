@@ -1,7 +1,7 @@
 ---
 title       : R Data Visualization & Data Products
 subtitle    : 
-author      : datasciencespm
+author      : mspcvsp
 job         : 
 framework   : revealjs
 highlighter : highlight.js
@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 ---
 
 # R Data Visualization & Data Products
-datasciencespm    
+mspcvsp    
 11/13/2014  
 
 ---
@@ -104,3 +104,21 @@ splom(airquality[,seq(1:4)],
     - [Motor Trend Car Road Tests dataset](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html)
     
 <img src="./assets/img/exploratoryDataAnalysis.png">  
+
+---
+## R Markdown Language  
+- [Reproducible Research](http://www.biostat.jhsph.edu/~rpeng/research.html)
+    - [Oxford Journals: Biostatistics ](http://biostatistics.oxfordjournals.org/content/10/3/405.full)
+- [R Markdown Language](http://rmarkdown.rstudio.com/)
+- [knitr R Package](http://yihui.name/knitr/)
+- [R Markdown HTML Document](http://rmarkdown.rstudio.com/html_document_format.html)
+- [R Markdown ioslides HTML5 presentation](http://rmarkdown.rstudio.com/ioslides_presentation_format.html)
+- [R Markdown Beamer PDF presentation](http://rmarkdown.rstudio.com/beamer_presentation_format.html)  
+
+---
+## Slidify  
+- This presentation was generated using [Slidify](http://slidify.github.io/interactive/)
+- [Slidify Demo](http://www.r-bloggers.com/slidify-modern-simple-presentations-written-in-r-markdown/)
+- [Data Visualization DC / Statistical Programming DC presentation: "Fantastic presentations from R using slidify and rCharts"](http://datacommunitydc.org/blog/2013/08/fantastic-presentations-from-r-using-slidify-and-rcharts/)  
+    - [rCharts R Package](http://rcharts.io/)
+    - [Data Community DC blog article: "Data Visualization: rCharts"](http://datacommunitydc.org/blog/2013/05/data-visualization-rcharts/)  
