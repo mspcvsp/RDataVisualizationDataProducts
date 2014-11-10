@@ -41,6 +41,7 @@ mspcvsp
 - [Regression Models](https://www.coursera.org/course/regmods)
 - [Practical Machine Learning](https://www.coursera.org/course/predmachlearn)
 - [Developing Data Products](https://www.coursera.org/course/devdataprod)
+- [Capstone Project](http://simplystatistics.org/2014/08/19/swiftkey-and-johns-hopkins-partner-for-data-science-specialization-capstone/)
 
 ---
 ## R Language Base Graphics Library  
