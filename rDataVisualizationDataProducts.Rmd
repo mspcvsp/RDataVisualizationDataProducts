@@ -46,7 +46,7 @@ mspcvsp
 ---
 ## R Language Base Graphics Library  
   
-- [Plot generation code](https://github.com/datasciencespm/ExData_Plotting1/blob/master/plot4.R)
+- [Plot generation code](https://github.com/mspcvsp/ExData_Plotting1/blob/master/plot4.R)
     - <small style="font-size:0.8em">[Individual Household Electric Power Consumption Data Set](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)</small>  
 
 <img src="./assets/img/rBaseGraphicsEx.png" width=480>  
@@ -83,7 +83,7 @@ splom(airquality[,seq(1:4)],
   
 - [R Graphics Cookbook](http://www.cookbook-r.com/Graphs)
 - [RColorBrewer R package](http://simplystatistics.org/2011/10/17/colors-in-r/)
-- [Plot generation code](https://github.com/datasciencespm/GettingAndCleaningData/blob/master/plotTidyData.R)
+- [Plot generation code](https://github.com/mspcvsp/GettingAndCleaningData/blob/master/plotTidyData.R)
     - <small style="font-size:0.8em">[Human Activity Recognition Using Smartphones Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)</small>  
     
 <img src="./assets/img/tBodyAccMagMean.png">  
@@ -103,7 +103,7 @@ splom(airquality[,seq(1:4)],
 ---
 ## GGally
 - [GGally R package description](http://tgmstat.wordpress.com/2013/11/13/plot-matrix-with-the-r-package-ggally/)  
-- [Plot generation code](https://github.com/datasciencespm/DevelopingDataProducts/blob/master/server.R)  
+- [Plot generation code](https://github.com/mspcvsp/DevelopingDataProducts/blob/master/server.R)  
     - <small style="font-size:0.8em">[Motor Trend Car Road Tests dataset](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html)</small>  
     
 <img src="./assets/img/exploratoryDataAnalysis.png">  
@@ -129,8 +129,8 @@ splom(airquality[,seq(1:4)],
 ---
 ## Shiny Web Application  
 - [Shiny web application tutorial](http://shiny.rstudio.com/tutorial/)  
-- [Example application](http://datasciencespm.github.io/DevelopingDataProducts/shinyApplicationPresentation.html#/slide-1)
-    - [Source code](https://github.com/datasciencespm/DevelopingDataProducts)
+- [Example application](http://mspcvsp.github.io/DevelopingDataProducts/shinyApplicationPresentation.html#/slide-1)
+    - [Source code](https://github.com/mspcvsp/DevelopingDataProducts)
       
 <img src="./assets/img/flowDiagram.png">  
 
